@@ -41,7 +41,7 @@ async def rename_file(bot, msg):
 		    thumb=ph_path,
 		    duration=duration,
 		    progress=progress_for_pyrogram,
-		    progress_args=( "⚠️__**Please wait...**__\n__Processing file upload....__",  ms, c_time))        
+		    progress_args=( "⚠️__**Please wait...**__\n__Processing file upload....__",  sts, c_time))        
     except Exception as e:  
         await sts.edit(f"Error {e}") 
         return               
