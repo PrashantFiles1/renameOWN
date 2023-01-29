@@ -39,7 +39,6 @@ async def rename_file(bot, msg):
 		    video=downloaded,
 		    caption=cap,
 		    thumb=og_thumbnail,
-		    duration=duration,
 		    progress=progress_message,
 		    progress_args=( "⚠️__**Please wait...**__\n__Processing file upload....__",  sts, c_time))        
     except Exception as e:  
