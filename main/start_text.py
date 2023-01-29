@@ -7,9 +7,9 @@ from config import ADMIN
 async def start_cmd(bot, msg):
     txt="About Owner"
     btn = InlineKeyboardMarkup([[
-        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/rai_info17")
+        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/prime6backup")
         ],[
-        InlineKeyboardButton("🧩 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/raixchat")
+        InlineKeyboardButton("🧩 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url="https://t.me/sparrow6606")
     ]])
     if msg.from_user.id != ADMIN:
         await msg.reply_text(text=txt, reply_markup=btn, disable_web_page_preview = True)
@@ -19,9 +19,9 @@ async def start_cmd(bot, msg):
 
 @Client.on_callback_query(filters.regex("start"))
 async def start(bot, msg, cb=True):   
-    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://github.com/ritheshrkrm>Rithesh</a></b>"                                     
+    txt=f"hai {msg.from_user.mention} i am simple rename bot with personal usage.\nthis bot is made by <b><a href=https://github.com/PrashantFiles1>Prashant</a></b>"                                     
     button= [[
-        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/rai_info17")
+        InlineKeyboardButton("⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/prime6backup")
         ],[
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
         InlineKeyboardButton("📡 About", callback_data="about") 
@@ -45,9 +45,9 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Master=f"<a href=https://t.me/rithesh_rkrm_17>『ᴘɪʀᴏ』</a>"  
-    Source="<a href=https://github.com/ritheshrkrm/Simple-Rename-Bot>Click Here</a>"
-    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/ritheshrkrm>Rithesh</a>\nBot Updates: <a href=https://t.me/rai_info17>PIRO</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
+    Master=f"<a href=https://t.me/sparrow6606>『ᴘɪʀᴏ』</a>"  
+    Source="<a href=https://github.com/PrashantFiles1/renameOWN>Click Here</a>"
+    txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://github.com/PrashantFiles1>Prashant</a>\nBot Updates: <a href=https://t.me/sparrow6606>PIRO</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
         InlineKeyboardButton("🚫 Close", callback_data="del"),
         InlineKeyboardButton("⬅️ Back", callback_data="start") 
