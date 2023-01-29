@@ -3,7 +3,9 @@
 <h1 align="center"></h1>
 <p align="center"> 
  <img src="https://te.legra.ph/file/692821c070eca5ac53fe8.jpg" alt="Lazy Streamer LOGO" width="650">
- 
+  </a>
+  
+ <p align="center">
 📝 Simple & High Speed Telegram File Rename Bot For only personal use 
 
 
