@@ -34,7 +34,7 @@
 ```
 start - get start the bot
 rename - replay with file to rename
-set - replay wuth photo to set thumbnail
+set - replay with photo to set thumbnail
 view - view current thumbnail 
 ```
 
