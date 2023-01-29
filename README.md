@@ -1,5 +1,7 @@
 # Simple-Rename-Bot 
 
+ <img src="https://telegra.ph/file/f2c253c5b0b747042cf4c.png" alt="Lazy Streamer LOGO" width="650">
+ 
 📝 Simple & High Speed Telegram File Rename Bot For only personal use 
 
 
